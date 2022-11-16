@@ -36,7 +36,7 @@ def monteCarlo():
             numValid +=1 
         count+=1
 
-    probability = round((numValid / runs), 3)
+    probability = round((numValid / runs), 3) #make sure we have 3 sig figs
 
     print("The probablity that a 1 meter stick can be arranged into a triangle is:", probability)
 
